@@ -1,6 +1,6 @@
 setup:
 	go get github.com/golang/dep/cmd/dep
-	go get github.com/golang/lint/golint
+	go get golang.org/x/lint/golint
 
 build: 
 	go build
